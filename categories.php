@@ -58,50 +58,49 @@
 						</div>
 					</a>
 					<nav id="menu" class="main-menu">
-                        <ul>
-                            <li><span><a href="/">Home</a></span></li>
-                            <li><span><a href="#0">Categories</a></span>
-                                <ul>
-                                    <li>
-                                        <span><a href="categories.php">Vehicle</a></span>
-                                        <ul>
-												<li><a href="subcat.php">Car</a></li>
-												<li><a href="subcat.php">Bus</a></li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <span><a href="#0">Services</a></span>
-                                        <ul>
-                                            <li><a href="row-listings-filterscol-search-aside.html">Barbing</a></li>
-                                            <li><a href="row-listings-filterstop-search-aside.html">Laundry</a></li>
-                                            <li><a href="row-listings-filterscol.html">Cleaning</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="listing-map.html">Another Category</a></li>
-                                </ul>
-                            </li>
-                            <li><span><a href="#0">Pages</a></span>
-                                <ul>
-                                    <li><a href="admin_section/index.html">Admin section</a></li>
-                                    <li><a href="blog.html">Blog</a></li>
-                                    <li><a href="account.html">Account</a></li>
-                                    <li><a href="help.html">Help Section</a></li>
-                                    <li><a href="faq.html">Faq Section</a></li>
-                                    <li><a href="wishlist.html">Wishlist page</a></li>
-                                    <li><a href="contacts.html">Contacts</a></li>
-                                    <li><a href="about.html">About</a></li>
-                                    <li><a href="media-gallery.html">Media gallery</a></li>
-                                </ul>
-                            </li>
-                            <li><span><a href="#0">Extra</a></span>
-                                <ul>
-                                    <li><a href="login.html">Login</a></li>
-                                    <li><a href="register.html">Register</a></li>
-                                </ul>
-                            </li>
-                            <li><span><a href="#0">Go Premium</a></span></li>
-                        </ul>
-                    </nav>
+							<ul>
+								<li><span><a href="/">Home</a></span></li>
+								<li><span><a href="#0">Categories</a></span>
+									<ul>
+										<li>
+											<span><a href="categories.php">Vehicle</a></span>
+											<ul>
+													<li><a href="subcat.php">Car</a></li>
+													<li><a href="subcat.php">Bus</a></li>
+											</ul>
+										</li>
+										<li>
+											<span><a href="categories.php">Services</a></span>
+											<ul>
+												<li><a href="subcat.php">Barbing</a></li>
+												<li><a href="subcat.php">Laundry</a></li>
+											</ul>
+										</li>
+										<li><a href="categories.php">Another Category</a></li>
+									</ul>
+								</li>
+								<li><span><a href="admin_section/index.html">Admin</a></span>
+									<!-- <ul>
+										<li><a href="admin_section/index.html">Admin section</a></li>
+										<li><a href="blog.html">Blog</a></li>
+										<li><a href="account.html">Account</a></li>
+										<li><a href="help.html">Help Section</a></li>
+										<li><a href="faq.html">Faq Section</a></li>
+										<li><a href="wishlist.html">Wishlist page</a></li>
+										<li><a href="contacts.html">Contacts</a></li>
+										<li><a href="about.html">About</a></li>
+										<li><a href="media-gallery.html">Media gallery</a></li>
+									</ul> -->
+								</li>
+								<li><span><a href="#0">Authentication</a></span>
+									<ul>
+										<li><a href="login.html">Login</a></li>
+										<li><a href="register.html">Register</a></li>
+									</ul>
+								</li>
+								<li><span><a href="#0">Go Premium</a></span></li>
+							</ul>
+						</nav>
 				</div>
 			</div>
 			<!-- /row -->

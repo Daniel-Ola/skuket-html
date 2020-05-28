@@ -69,18 +69,17 @@
 							</ul>
 						</li>
 						<li>
-							<span><a href="#0">Services</a></span>
+							<span><a href="categories.php">Services</a></span>
 							<ul>
-								<li><a href="row-listings-filterscol-search-aside.html">Barbing</a></li>
-								<li><a href="row-listings-filterstop-search-aside.html">Laundry</a></li>
-								<li><a href="row-listings-filterscol.html">Cleaning</a></li>
+								<li><a href="subcat.php">Barbing</a></li>
+								<li><a href="subcat.php">Laundry</a></li>
 							</ul>
 						</li>
-						<li><a href="listing-map.html">Another Category</a></li>
+						<li><a href="categories.php">Another Category</a></li>
 					</ul>
 				</li>
-				<li><span><a href="#0">Pages</a></span>
-					<ul>
+				<li><span><a href="admin_section/index.html">Admin</a></span>
+					<!-- <ul>
 						<li><a href="admin_section/index.html">Admin section</a></li>
 						<li><a href="blog.html">Blog</a></li>
 						<li><a href="account.html">Account</a></li>
@@ -90,9 +89,9 @@
 						<li><a href="contacts.html">Contacts</a></li>
 						<li><a href="about.html">About</a></li>
 						<li><a href="media-gallery.html">Media gallery</a></li>
-					</ul>
+					</ul> -->
 				</li>
-				<li><span><a href="#0">Extra</a></span>
+				<li><span><a href="#0">Authentication</a></span>
 					<ul>
 						<li><a href="login.html">Login</a></li>
 						<li><a href="register.html">Register</a></li>
