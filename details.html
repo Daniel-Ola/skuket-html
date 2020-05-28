@@ -63,20 +63,20 @@
 								<li><span><a href="#0">Categories</a></span>
 									<ul>
 										<li>
-											<span><a href="categories.php">Vehicle</a></span>
+											<span><a href="categories.html">Vehicle</a></span>
 											<ul>
-													<li><a href="subcat.php">Car</a></li>
-													<li><a href="subcat.php">Bus</a></li>
+													<li><a href="subcat.html">Car</a></li>
+													<li><a href="subcat.html">Bus</a></li>
 											</ul>
 										</li>
 										<li>
-											<span><a href="categories.php">Services</a></span>
+											<span><a href="categories.html">Services</a></span>
 											<ul>
-												<li><a href="subcat.php">Barbing</a></li>
-												<li><a href="subcat.php">Laundry</a></li>
+												<li><a href="subcat.html">Barbing</a></li>
+												<li><a href="subcat.html">Laundry</a></li>
 											</ul>
 										</li>
-										<li><a href="categories.php">Another Category</a></li>
+										<li><a href="categories.html">Another Category</a></li>
 									</ul>
 								</li>
 								<li><span><a href="admin_section/index.html">Admin</a></span>
@@ -176,31 +176,88 @@
                             <!-- /opening -->
 							<hr>
 							
-                            <h5 class="mb-3">Related Offers <span class="float-right"><a href="seller.php?seller_id=xyz" style="text-decoration: none;">Ads from the same seller</a></span></h5>
+                            <h5 class="mb-3">Related Offers <span class="float-right"><a href="seller.html?seller_id=xyz" style="text-decoration: none;">Ads from the same seller</a></span></h5>
                             <div class="row">
-							<?php
-								for($j=0; $j < 2; $j++) {
-							?>
-                                <div class="col-lg-6 col-md-12">
-                                    <ul class="menu_list">
-									<?php
-										for($i=0; $i < 4; $i++) {
-									?>
-                                        <li>
-                                            <div class="thumb">
-                                                <img src="assets/images/product.jpg" alt="" width="200" height="200" class="img-fluid">
-                                            </div>
-                                            <h6>Product Name <span>#12</span></h6>
-                                            <p>
-                                                Product location
-                                            </p>
-										</li>
-									<?php
-										}
-									?>
-                                    </ul>
-								</div>
-							<?php } ?>
+									<div class="col-lg-6 col-md-12">
+										<ul class="menu_list">
+												<li>
+													<div class="thumb">
+														<img src="assets/images/product.jpg" alt="" width="200" height="200" class="img-fluid">
+													</div>
+													<h6>Product Name <span>#12</span></h6>
+													<p>
+														Product location
+													</p>
+												</li>
+												<li>
+													<div class="thumb">
+														<img src="assets/images/product.jpg" alt="" width="200" height="200" class="img-fluid">
+													</div>
+													<h6>Product Name <span>#12</span></h6>
+													<p>
+														Product location
+													</p>
+												</li>
+												<li>
+													<div class="thumb">
+														<img src="assets/images/product.jpg" alt="" width="200" height="200" class="img-fluid">
+													</div>
+													<h6>Product Name <span>#12</span></h6>
+													<p>
+														Product location
+													</p>
+												</li>
+												<li>
+													<div class="thumb">
+														<img src="assets/images/product.jpg" alt="" width="200" height="200" class="img-fluid">
+													</div>
+													<h6>Product Name <span>#12</span></h6>
+													<p>
+														Product location
+													</p>
+												</li>
+										</ul>
+									</div>
+									<div class="col-lg-6 col-md-12">
+										<ul class="menu_list">
+												<li>
+													<div class="thumb">
+														<img src="assets/images/product.jpg" alt="" width="200" height="200" class="img-fluid">
+													</div>
+													<h6>Product Name <span>#12</span></h6>
+													<p>
+														Product location
+													</p>
+												</li>
+												<li>
+													<div class="thumb">
+														<img src="assets/images/product.jpg" alt="" width="200" height="200" class="img-fluid">
+													</div>
+													<h6>Product Name <span>#12</span></h6>
+													<p>
+														Product location
+													</p>
+												</li>
+												<li>
+													<div class="thumb">
+														<img src="assets/images/product.jpg" alt="" width="200" height="200" class="img-fluid">
+													</div>
+													<h6>Product Name <span>#12</span></h6>
+													<p>
+														Product location
+													</p>
+												</li>
+												<li>
+													<div class="thumb">
+														<img src="assets/images/product.jpg" alt="" width="200" height="200" class="img-fluid">
+													</div>
+													<h6>Product Name <span>#12</span></h6>
+													<p>
+														Product location
+													</p>
+												</li>
+										</ul>
+									</div>
                             </div>
                             <!-- /row -->
 							<!-- <hr>
@@ -379,11 +436,11 @@
 					<aside class="col-lg-4" id="sidebar">
 						<div class="box_detail booking">
 							<div class="price">
-								<h5 class="d-inline">Contact <a href="seller.php?seller_id=xyz" title="View Adewale's profile">Seller</a> </h5>
+								<h5 class="d-inline">Contact <a href="seller.html?seller_id=xyz" title="View Adewale's profile">Seller</a> </h5>
 								<div class="score"><span>Good<em>350 Reviews</em></span><strong>7.0</strong></div>
 							</div>
 							<div id="message-contact-detail"></div>
-							<form method="post" action="assets/contact_detail.php" id="contact_detail" autocomplete="off">
+							<form method="post" action="assets/contact_detail.html" id="contact_detail" autocomplete="off">
 								<div class="form-group">
 									<input class="form-control" type="text" placeholder="Name" name="name_detail" id="name_detail">
 									<i class="ti-user"></i>
@@ -470,7 +527,7 @@
 					<div class="collapse dont-collapse-sm" id="collapse_ft_4">
 						<div id="newsletter">
 							<div id="message-newsletter"></div>
-							<form method="post" action="assets/newsletter.php" name="newsletter_form" id="newsletter_form">
+							<form method="post" action="assets/newsletter.html" name="newsletter_form" id="newsletter_form">
 								<div class="form-group">
 									<input type="email" name="email_newsletter" id="email_newsletter" class="form-control" placeholder="Your email">
 									<input type="submit" value="Submit" id="submit-newsletter">
