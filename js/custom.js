@@ -21,5 +21,12 @@ $(document).ready(function () {
             val = '';
             $('#institution').fadeOut();
         }
-    })
+    });
+
+    $('.swapForm').click(function(e) {
+        show = $(this).attr('target-show');
+        hide = $(this).attr('target-hide');
+        $(show).show();
+        $(hide).hide();
+    });
 });
