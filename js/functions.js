@@ -2,6 +2,8 @@
 
 	"use strict";
 
+	let title = $('title').text('Skuket - The Student Market');
+
 	// Sticky nav
 	$(window).on('scroll', function () {
 		if ($(this).scrollTop() > 1) {

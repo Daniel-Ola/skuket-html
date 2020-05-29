@@ -1,6 +1,9 @@
 (function($) {
   "use strict"; // Start of use strict
   // Configure tooltips for collapsed side navigation
+
+  let title = $('title').text('Skuket - The Student Market');
+
   $('.navbar-sidenav [data-toggle="tooltip"]').tooltip({
     template: '<div class="tooltip navbar-sidenav-tooltip" role="tooltip"><div class="arrow"></div><div class="tooltip-inner"></div></div>'
   })
